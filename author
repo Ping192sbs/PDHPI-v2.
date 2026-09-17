@@ -1,1 +1,28 @@
 
+Ping192.sbs
+---
+
+### 5. `docs/SCOPE.md`
+
+```markdown
+# Scope
+
+PDHPI is a complementary defense layer.
+
+## It does
+
+- Score real inbound requests
+- Track rate, reputation, and session correlation
+- Return allow / challenge / block
+- Enforce a proof-of-work challenge
+- Rotate a transport envelope
+- Run calibrated short-horizon predictions
+
+## It does not
+
+- Replace a WAF or RASP
+- Fix insecure application code
+- Guarantee zero false positives
+- Invent demo traffic
+
+Use it for cheap, correlated, per-request signal — not as a full security stack.
