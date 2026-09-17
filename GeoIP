@@ -1,1 +1,2 @@
 
+php index.php --geoip /path/to/GeoLite2-Country.mmdb
